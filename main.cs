@@ -12,7 +12,8 @@ class Program
         Console.Write("Enter the Diagonal A:");
         double Diagonala = Convert.ToDouble(Console.ReadLine());
         Console.Write("Enter the Diagonal B:");
-        double Diagonalb = Convert.ToDouble(Console.ReadLine());  
+        double Diagonalb = Convert.ToDouble(Console.ReadLine());
+
         double Area = (Diagonala * Diagonalb) / 2;
         Console.Write("Area of a Kite = " + Area + "cm²");
         Console.ReadKey();
